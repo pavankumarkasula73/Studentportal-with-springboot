@@ -1,0 +1,51 @@
+:root{
+    --color-1 : #8B002A;
+    --color-2 : #D14D72;
+    --color-3 : #FCC8D1;
+    --color-4 : #FEF2F4;       
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.15rem;
+    color: var(--color-4);
+}
+
+footer a{
+    color: var(--color-4);
+}
+
+footer p{
+    margin: 20px;
+    flex: 3;
+}
+
+footer .icons{
+    flex: 2;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.icons i:hover{
+    color: whitesmoke;
+}
+
+
+

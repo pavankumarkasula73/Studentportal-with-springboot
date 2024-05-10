@@ -1,0 +1,113 @@
+:root{
+    --color-1 : #8B002A;
+    --color-2 : #D14D72;
+    --color-3 : #FCC8D1;
+    --color-4 : #FEF2F4;       
+}
+
+@font-face {
+    font-family: Lugrasimo;
+    src: url(../assert/fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lumanosimo;
+    src: url(../assests/fonts/Lumanosimo-Regular.ttf);
+}
+
+body, ul{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+nav{            
+    display: flex;
+    width: 100%;
+    height: 103px;
+    background: url(../assert/img/navbar_background.jpg);
+    background-size: cover;
+    color:var(--color-2);
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center; 
+    font-family: Lugrasimo;  
+    font-weight: bolder;
+    font-size: 1.5rem;
+    position:relative;
+    box-shadow: 0px 5px 5px #8B002A;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    flex:2;
+    color: #062925;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+#logo p{
+    font-size: 2.5em;
+    font-weight: bold;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    color: #8B002A;
+    position: relative;
+    top: 22px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:3;
+    font-size: 1.25rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--color-1);
+    font-family: Lugrasimo;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 8px 15px;  
+    border-radius: 30px;  
+} 
+
+#logo a:hover{
+    text-shadow: 5px -5px 5px var(--color-3);
+}
+
+#logo a:focus{
+	color: var(--color-1);
+	text-shadow: 5px -5px 5px var(--color-2);
+}
+
+.navbar-menu a:hover{
+    text-shadow: 5px -5px 5px var(--color-2);  
+}
+
+.select{
+    color: whitesmoke;
+    background-color: var(--color-2);     
+}
+
+#logout form button{
+
+    background-color: transparent;    
+    border: none;
+    outline: none;
+    font-family: Lugrasimo;
+    font-size: 1.50rem;
+    color: var(--color-1);
+    font-weight: bold;
+}
+
+#logout form button:hover{
+
+    text-shadow: 5px -5px 5px var(--color-2); ;
+}

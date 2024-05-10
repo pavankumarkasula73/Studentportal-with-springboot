@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-1 : #8B002A;
+    --color-2 : #D14D72;
+    --color-3 : #FCC8D1;
+    --color-4 : #FEF2F4;       
+}
+
+@font-face {
+    font-family: Lugrasimo;
+    src: url(../assert/fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lumanosimo;
+    src: url(../assests/fonts/Lumanosimo-Regular.ttf);
+}
+
+.con{
+
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(../assert/img/dashboard_background.jpg);
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.calendar{
+
+    width: 20vw;
+    height: 20vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #8B002A;
+    align-self: flex-start;
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.clock{
+    font-family: Lumanosimo;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--color-1);
+    display: flex;
+    justify-content: center;
+
+}
+
+.info{
+    width: 50vw;
+    height: 50vh;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #8B002A; 
+}
+
+table{
+    width: 100%;
+    height: 100%;
+    font-family: Lumanosimo;
+    font-size: 1.25rem;
+}
+
+#header{
+    height: 0px;
+}
+
+.var{
+    color: var(--color-1);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+tr{
+    height: 70px;
+    border-bottom: 10px solid red;
+}
+
+tr:nth-child(odd){
+	
+	background-color: var(--color-3);
+}
+
+tr:hover{
+	box-shadow: 0px 5px 5px #8B002A;
+}

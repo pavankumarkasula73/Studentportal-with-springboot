@@ -1,0 +1,58 @@
+:root{
+    --color-1 : #8B002A;
+    --color-2 : #D14D72;
+    --color-3 : #FCC8D1;
+    --color-4 : #FEF2F4;       
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lugrasimo;
+    src: url(../assests/fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lumanosimo;
+    src: url(../assests/fonts/Lumanosimo-Regular.ttf);
+}
+
+.con{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assert/img/contact_background.jpg);
+    background-size: 100% 100vh;
+    box-sizing: border-box;
+}
+
+.about-con{
+    width: 60vw;
+    height: 80vh;
+    position: relative;
+    top: 10vh;
+    left: 35vw;
+    font-family: Lumanosimo;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heading, th{
+    color: var(--color-1);
+    letter-spacing: 3px;    
+}
+
+.about-con p{
+    text-align: justify;
+    line-height: 2rem;
+    text-indent: 20px;
+}
+
+th, td{
+    padding: 10px;
+}
+

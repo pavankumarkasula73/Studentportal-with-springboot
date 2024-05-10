@@ -1,0 +1,176 @@
+:root{
+    --color-1 : #8B002A;
+    --color-2 : #D14D72;
+    --color-3 : #FCC8D1;
+    --color-4 : #FEF2F4;       
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lugrasimo;
+    src: url(../assert/fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lumanosimo;
+    src: url(../assests/fonts/Lumanosimo-Regular.ttf);
+}
+
+.con{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    background-image: url(../assert/img/login_background.jpg);
+    background-color: var(--color-4);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.login-con{    
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(252, 200, 209, -1);
+    border-radius: 10px;
+    box-shadow: 10px -10px 50px var(--color-2);
+}  
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.login-con form{
+    background-color: var(--color-1);
+    border-radius: 10px;       
+    padding: 10px;   
+    font-family: Lumanosimo; 
+}
+
+.login-fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    border-radius: 5px;               
+}
+
+
+fieldset legend{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: var(--color-4);
+    text-align: center;        
+    letter-spacing: 10px;
+}
+
+fieldset div{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    color: var(--color-4);
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+}
+
+input{
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+input:focus{
+    color: black;
+    background-color: var(--color-3);
+}
+
+.gender input{
+    width: 20px;
+    height: 20px;
+    accent-color: rgb(101, 0, 0);   
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    box-sizing: border-box;
+    margin: 0px;   
+}
+.buttons button{
+    font-family: Lumanosimo;
+    font-size: 1.15rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: #B5C99A;
+    border-radius: 10px 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--color-1);
+}
+
+.buttons button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: var(--color-2);
+    box-shadow: 3px 3px 3px #B5C99A;
+}
+
+.buttons button:active{
+    color: #FFC95F;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-4);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.field-icon {
+    float: right;
+    position: relative;
+    z-index: 2;
+    bottom: 28px;
+    right: 8px;
+    color: var(--color-1);
+  }
+
+.field-icon:hover{
+    cursor: pointer;
+    text-shadow: 2px -2px 2px var(--color-2);
+
+}
+
+.field-icon:active{
+    color: white;
+}
+
+.gender label{
+    display: inline;
+}
+
+.gender input{
+    width: 20px;
+    height: 20px;
+    accent-color: rgb(101, 0, 0);   
+}

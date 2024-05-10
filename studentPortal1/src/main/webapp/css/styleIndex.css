@@ -1,0 +1,77 @@
+:root{
+    --color-1 : #8B002A;
+    --color-2 : #D14D72;
+    --color-3 : #FCC8D1;
+    --color-4 : #FEF2F4;       
+}
+
+body, h1, h3{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lugrasimo;
+    src: url(../assests/fonts/Lugrasimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lumanosimo;
+    src: url(../assests/fonts/Lumanosimo-Regular.ttf);
+}
+
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assert/img/landing_background.jpg );    
+    background-size: 100% 100vh; 
+    box-sizing: border-box;   
+}
+
+.landing_content{
+    font-family: Lumanosimo;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: max-content;
+    height: 10vh;
+    top: 25vh;
+    left: 6vw;
+    box-sizing: content-box;
+}
+
+.landing h1{
+    color: rgb(139, 0, 42);
+}
+.landing h3{
+    color: rgb(189, 15, 55);
+}
+
+.landing_btn{
+    width: max-content;
+    position: relative;
+    top: 45vh;
+    left:53vw;
+}
+
+.landing_btn button{
+    font-family: Lumanosimo;
+    padding: 8px 10px;
+    font-size: 1.25rem;
+    border-radius: 10px 20px;
+    border: none;
+    background-color: rgb(139, 0, 42);
+    color: white;
+    letter-spacing: 3px;
+}
+
+.landing .logo img{
+    width: 230px;
+    height: 210px;
+    position: relative;
+    left: 78vw;
+    top: 2vh;
+}
+
